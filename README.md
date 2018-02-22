@@ -9,4 +9,4 @@ email: j a y w h s @ gmail.com
 If you have any questions please contact me via the email printed above
 
 1)some parts of the code have been modified to protect private information
-2)some service checks use nrpe and other use nas
+2)some service checks use nrpe and other use nscd
