@@ -19,7 +19,7 @@ else {
 //function for amazon boxes
 function kcheckamzn($version) {
 
-  if (version_compare("$version", "4.9.77-31.58.amzn1.x86_64") < 0) {
+  if (version_compare("$version", "4.9.77-31.58.amzn1.x86_64") < 0) { //version stated is min version for aws
     echo "WARN: I am still Kernel Version " . php_uname('r') . ".  I need to be 4.9.77-31.58.amzn1.x86_64 or greater\n";
     exit (1);
   }
@@ -35,7 +35,7 @@ function kcheckamzn($version) {
 
 //function for centos boxes
 function kcheckcentos($version) {
-  if (version_compare("$version", "2.6.32-696.18.7.el6.centos.plus.x86_64") < 0) {
+  if (version_compare("$version", "2.6.32-696.18.7.el6.centos.plus.x86_64") < 0) { //version stated is min version for centos
     echo "WARN: I am still Kernel Version " . php_uname('r') . ".  I need to be 2.6.32-696.18.7.el6.centos.plus.x86_64 or greater\n";
     exit (1);
   }
